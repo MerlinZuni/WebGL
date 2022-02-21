@@ -16,7 +16,6 @@ function toggleSong(){
 function preload() {
     // loading files into the document
     slashes = loadModel('src/liip-slashes.obj'); // 3d model from blender
-    // slashes = loadModel('src/boombox.obj');
     song = loadSound('src/Tribe-Called-Quest-Luck-Of-Lucien.mp3'); // audio file
 }
 
